@@ -95,7 +95,7 @@ int main() {
 	vector<SV> listSVFromFile = readListSV(filePath);
 	listSVFromFile = readListSV(filePath);
 	// print dssv
-	printListSV(listSV);
+	printListSV(listSVFromFile);
 
 
 	return 0;

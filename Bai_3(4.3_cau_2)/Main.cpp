@@ -34,6 +34,8 @@ int main() {
 	string inputString = "";
 	string listNguyenAm = {};
 
+	cout << "Nhap mot chuoi gi do di nao: ";
+
 	getline(cin, inputString);  // Read a line into inputString
 
 	ofstream outNguyenAm(outFilePath);
